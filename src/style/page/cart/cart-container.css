@@ -1,0 +1,143 @@
+.cart-div {
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid #d6d6d6;
+}
+.cart-div:nth-child(1) {
+    border: 0;
+}
+
+.cart-item-title,
+.cart-item {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 18px 0;
+}
+
+.cart-item-title *,
+.cart-item * {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0 5px;
+}
+.checkbox {
+    flex: 1;
+}
+
+.image {
+    flex: 5;
+}
+
+.name {
+    flex: 8;
+
+}
+
+.price {
+    flex: 6;
+}
+
+.quantity {
+    flex: 4;
+}
+
+.delect {
+    flex: 1;
+}
+
+.cart-item-title {
+    
+}
+.cart-item-title * {
+    text-align: center;  
+}
+.cart-item-title * {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.cart-item .checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart-item input[type="checkbox"] {
+    position: relative;
+    bottom: 10px;
+}
+
+.cart-item .name-product {
+    font-weight: 700;
+}
+.cart-item .product-atribute {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #7c7c7c;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.cart-item .product-atribute * {
+    margin-bottom: 6px;
+}
+.cart-item .product-atribute .point {
+    border-radius: 20%;
+    position: absolute;
+    left: 70px;
+}
+.cart-item .price {
+    text-align: center;
+    font-weight: 600;
+}
+.cart-item .quantity .quantity-box {
+    display: flex;
+    flex-wrap: wrap;
+    height: 30px;
+    width: 90px;
+    padding: 4px;
+    border-radius: 5px;
+    /* justify-content: center;
+    align-items: center; */
+}
+.cart-item .quantity *  {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: 0;
+    background-color: #dbdbdb;
+    font-size: 18px;
+    padding: 5px;
+
+}
+.cart-item .quantity input[type="number"] {
+    text-align: center;
+   width: 30px;
+}
+
+.cart-item .quantity input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.cart-item .quantity .plus {
+    border-radius: 0 5px 5px 0; 
+    cursor: pointer;
+}
+.cart-item .quantity .minus {
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+    
+}
+
+.cart-item .delect,.cart-item .quantity, .cart-item .price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* products.push(new product("1", ")", "lap-top", , 10,['256GB','512GB'],['#b1b3b6','#e2e5e3'], "", "MacBook Pro 13 inch nay đa năng hơn bao giờ hết. Siêu mạnh mẽ với chip M2 thế hệ tiếp theo, đây là chiếc máy tính xách tay chuyên nghiệp nhỏ gọn nhất của Apple, cùng thời lượng pin lên đến 20 giờ.", ["https://shopdunk.com/images/thumbs/0008683_macbook-pro-13-inch-m2-chip-with-8-core-cpu-and-10-core-gpu-8gb-ram-256gb-ssd_550.webp","https://shopdunk.com/images/thumbs/0008684_macbook-pro-13-inch-m2-chip-with-8-core-cpu-and-10-core-gpu-8gb-ram-256gb-ssd_550.webp","https://shopdunk.com/images/thumbs/0008685_macbook-pro-13-inch-m2-chip-with-8-core-cpu-and-10-core-gpu-8gb-ram-256gb-ssd_550.webp","https://shopdunk.com/images/thumbs/0008686_macbook-pro-13-inch-m2-chip-with-8-core-cpu-and-10-core-gpu-8gb-ram-256gb-ssd_550.webp","https://shopdunk.com/images/thumbs/0008687_macbook-pro-13-inch-m2-chip-with-8-core-cpu-and-10-core-gpu-8gb-ram-256gb-ssd_550.webp","https://shopdunk.com/images/thumbs/0008688_macbook-pro-13-inch-m2-chip-with-8-core-cpu-and-10-core-gpu-8gb-ram-256gb-ssd_550.webp","https://shopdunk.com/images/thumbs/0008683_macbook-pro-13-inch-m2-chip-with-8-core-cpu-and-10-core-gpu-8gb-ram-256gb-ssd_550.webp"])); */

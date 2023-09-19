@@ -1,0 +1,106 @@
+#body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+
+}
+
+#slider {
+    width: 1000px;
+    position: relative;
+}
+
+#slider .list-item {
+    width: 1000px;
+    height: 600px;
+    position: relative;
+
+}
+
+#slider .list-item .item {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* top: 0; */
+    /* left: 0; */
+    background-size: cover;
+    background-position: 50% 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 360px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    box-shadow: 0 30px 50px -6px;
+    transition: 1s ease-out;
+
+}
+
+#slider .list-item .item:nth-child(3) {
+    z-index: 10;
+    transition: 1s ease-in;
+
+}
+
+#slider .list-item .item:nth-child(2) {
+    z-index: 4;
+    left: 20%;
+    width: 40%;
+    transform: translate(-50%, -50%) scale( 0.8);
+    background-position: 0;
+
+}
+
+#slider .list-item .item:nth-child(1) {
+    width: 40%;
+
+    z-index: 3;
+    left: 0%;
+    transform: translate(-50%, -50%) scale( 0.6);
+    opacity: 0;
+    background-position: 0;
+
+}
+
+#slider .list-item .item:nth-child(4) {
+    width: 40%;
+
+    z-index: 4;
+    left: 80%;
+    transform: translate(-50%, -50%) scale( 0.8);
+    background-position: 100%;
+
+}
+
+#slider .list-item .item:nth-child(n+5) {
+    width: 40%;
+
+    z-index: 3;
+    left: 100%;
+    transform: translate(-50%, -50%) scale( 0.6);
+    opacity: 0;
+    background-position: 100%;
+
+}
+
+.slider-buttons {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 50px;
+    z-index: 11;
+
+}
+.slider-buttons button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: 0;
+    border: 0;
+    transition: 1s;
+}
+.slider-buttons button:hover {
+    background-color: antiquewhite;
+}

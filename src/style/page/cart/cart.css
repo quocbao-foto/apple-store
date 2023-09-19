@@ -1,0 +1,130 @@
+#card {
+    width: 1200px;
+}
+
+
+.cart-group {
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+}
+
+.cart-group>h1 {
+    position: absolute;
+    margin-left: 50px;
+    top: 20px;
+}
+
+
+.cart-container {
+    width: 750px;
+    max-height: 80vh;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: white;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.cart-container::-webkit-scrollbar {
+    display: none;
+}
+
+.cart-container h1 {
+    text-align: center;
+    font-size: 24px;
+}
+.cart-container .shopping {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    height: 60px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: rgb(49, 139, 255);
+    text-align: center;
+    line-height: 55px;
+}
+.cart-checkout {
+    width: 350px;
+
+
+}
+
+
+.cart-checkout {
+    margin: 20px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.discout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discout>* {
+    height: 50px;
+}
+
+.discout>input {
+    flex: 1.5;
+    width: 50px;
+    padding-left: 20px;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid rgb(100, 100, 100);
+    outline: 0;
+    font-size: 18px;
+}
+
+.discout>button {
+    flex: 1;
+    border-radius: 0 10px 10px 0;
+    outline: 0;
+    border: 0;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+    background-color: rgb(100, 100, 100);
+}
+
+.checkout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.checkout>#summary {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cart-checkout {
+    max-height: 310px;
+
+}
+
+.cart-checkout>button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    outline: 0;
+    border: 0;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    background-color: rgb(83, 137, 207);
+    font-weight: 600;
+    border-radius: 10px;
+
+}

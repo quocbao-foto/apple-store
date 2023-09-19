@@ -1,0 +1,55 @@
+.product-portfolio {
+    margin: auto;
+    margin-top: 35px;
+    display: flex;
+}
+
+.portfolio-box {
+    width: calc((100/8)*100%);
+
+}
+
+.portfolio-item {
+    --w: 120px;
+    margin: auto;
+    width: var(--w);
+    height: var(--w);
+    /* background-color: rgb(189, 189, 189); */
+    border-radius: 10px;
+    position: relative;
+
+}
+.portfolio-item img {
+    transition: 0.5s;
+    background-position: 50% 50%;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    transform-origin:  bottom left;
+}
+.portfolio-item:hover img {
+    /* animation: zoom; */
+    scale:1.1;
+}
+@keyframes zoom {
+    from {scale:1;}
+    to {scale:1.1;}
+}
+.portfolio-item .image-type {
+    width: 90%;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.portfolio-item .name-type {
+    width: 140px;
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+    top: 95px;
+    left: 50%;
+    transform: translate(-50%);
+}

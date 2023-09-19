@@ -1,0 +1,107 @@
+#footer {}
+
+        #footer * {
+            font-size: 14px;
+            color: rgb(77, 77, 77);
+        }
+
+        #footer a:hover {
+            text-decoration: underline;
+        }
+
+        #footer-container {
+            margin: auto;
+            width: 1200px;
+        }
+
+        .f-group {
+            border-top: 1px solid rgba(77, 77, 77, 0.541);
+            ;
+            width: 100%;
+        }
+
+        .f-group-breadcrumb {
+            padding: 15px 0;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .f-group-breadcrumb .logo {
+            position: relative;
+            top: -2px;
+        }
+
+        .f-group-breadcrumb .logo * {
+            font-size: 20px;
+        }
+
+        .f-group-breadcrumb .fa-chevron-right {
+            font-size: 12px;
+            margin: 0 5px;
+        }
+
+        .f-group-breadcrumb .content {}
+
+        .f-group-direcory {
+            display: flex;
+        }
+
+        .f-group-direcory-colum {
+            flex: 1;
+        }
+
+        .f-group-direcory-colum-section {
+            padding-bottom: 10px;
+
+        }
+
+        .f-group-direcory-colum-section .title {
+            font-weight: 700;
+            padding: 3px 0;
+        }
+
+        .f-group-direcory-colum-section ul li a {
+            padding: 2px 0;
+        }
+
+        .f-group-mini-link {
+            padding: 10px 0;
+        }
+
+        .f-group-mini-link a {
+            color: rgb(21, 103, 255) !important;
+        }
+
+        .f-group-mini-link a:hover {
+            text-decoration: underline;
+        }
+
+        .f-group-coppyright {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+        }
+
+        .f-group-coppyright .country {}
+
+        .f-group-coppyright .content {}
+
+        .f-group-nav {
+            padding-bottom: 30px;
+        }
+        .f-group-nav ul {
+            display: flex;
+        }
+        .f-group-nav ul li {
+            padding:0 15px;
+            border-right: 1px solid rgba(77, 77, 77, 0.541);
+        }
+        .f-group-nav ul li:first-child {
+            padding-left: 0;
+        }
+        .f-group-nav ul li:last-child {
+            padding-right: 0;
+            border-right: 0;
+        }

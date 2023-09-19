@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul ,li {
+    list-style: none;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--black);
+    cursor: pointer;
+}
+
+html {
+    font-family: var(--font);
+
+}
+
+body {
+
+}
+
+#app {
+    background-color: rgb(236, 236, 236);
+}
+
+#container {
+
+}
+
+#header {
+
+}
+
+#body {
+
+}
+
+#footer {
+
+}
+
